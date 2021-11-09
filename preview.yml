@@ -1,0 +1,19 @@
+site:
+  title: My Documentation Site
+
+content:
+  sources:
+    - url: ./
+      branches: master
+
+ui:
+  bundle:
+    url: https://s3-eu-west-1.amazonaws.com/static-content.neo4j.com/build/ui-bundle-v0.10.6.zip
+    snapshot: true
+urls:
+  html_extension_style: indexify
+
+asciidoc:
+  extensions:
+    - "@neo4j-documentation/remote-include"
+    - "@neo4j-documentation/macros"
