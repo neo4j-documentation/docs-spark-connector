@@ -37,7 +37,7 @@ Pushing to the `publish` branch of this repo will trigger a rebuild of the HTML 
 [source,sh]
 ----
 # clone the repo
-git clone https://github.com/neo4j-documentation/developer-guides
+git clone https://github.com/neo4j-documentation/docs-spark-connector
 
 # make some changes
 touch modules/ROOT/page.adoc
